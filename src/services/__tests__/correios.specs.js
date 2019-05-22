@@ -6,4 +6,12 @@ describe('shoud test correios', () => {
         expect(Correios).toBeTruthy();
     
     })
+
+    it('shoud test correios connection',() => {
+    
+        expect(Correios.calcPrazos).toBeTruthy();
+
+
+    })
+
 })
