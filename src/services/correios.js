@@ -1,6 +1,2 @@
-
-
-sdfas
-
 module.exports = {
 }

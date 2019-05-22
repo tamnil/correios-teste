@@ -7,6 +7,8 @@ describe('config file test',() => {
         expect(Config.viaCepUrl).toBeTruthy()
         expect(Config.defaultData.calcArgs).toBeTruthy()
         expect(Config.defaultData.cepArgs).toBeTruthy()
+
+        // console.log(process.env.NODE_ENV)
     
     })
 

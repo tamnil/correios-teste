@@ -2,9 +2,13 @@
   "name": "correios-teste",
   "version": "0.0.1",
   "description": "Teste dos correios",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "watch": "nodemon ",
+    "test-coverage": "jest --coverage",
+    "watch-test": "nodemon -x 'NODE_ENV=test jest '",
+    "watch-test-coverage": "nodemon -x 'NODE_ENV=test jest --coverage' "
   },
   "repository": {
     "type": "git",
@@ -25,11 +29,16 @@
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "babel-loader": "^8.0.6",
+    "eslint": "^5.16.0",
     "gulp": "^4.0.2",
+    "gulp-jshint": "^2.1.0",
     "jest": "^24.8.0",
+    "jest-html-reporter": "^2.5.0",
+    "jshint": "^2.10.2",
     "webpack": "^4.32.0"
   },
   "dependencies": {
-    "dotenv": "^8.0.0"
+    "dotenv": "^8.0.0",
+    "npm": "^6.9.0"
   }
 }

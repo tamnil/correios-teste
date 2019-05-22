@@ -1,8 +1,8 @@
+'use strict'
 
 require('dotenv').config()
 
 const env = process.env.test
-
 
 module.exports = {
     correiosUrl: 'http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx?wsdl',
