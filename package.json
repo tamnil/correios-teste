@@ -1,0 +1,35 @@
+{
+  "name": "correios-teste",
+  "version": "0.0.1",
+  "description": "Teste dos correios",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamnil/correios-teste.git"
+  },
+  "keywords": [
+    "teste",
+    "correios",
+    "tempo"
+  ],
+  "author": "Tamnil Saito Junior",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tamnil/correios-teste/issues"
+  },
+  "homepage": "https://github.com/tamnil/correios-teste#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "gulp": "^4.0.2",
+    "jest": "^24.8.0",
+    "webpack": "^4.32.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0"
+  }
+}
