@@ -26,20 +26,20 @@
   },
   "homepage": "https://github.com/tamnil/correios-teste#readme",
   "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
     "babel-loader": "^8.0.6",
-    "eslint": "^6.1.0",
+    "eslint": "^6.8.0",
     "gulp": "^4.0.2",
     "gulp-jshint": "^2.1.0",
-    "jest": "^24.8.0",
-    "jest-html-reporter": "^2.5.0",
-    "jshint": "^2.10.2",
-    "webpack": "^4.38.0"
+    "jest": "^25.1.0",
+    "jest-html-reporter": "^2.8.0",
+    "jshint": "^2.11.0",
+    "webpack": "^4.41.5"
   },
   "dependencies": {
-    "dotenv": "^8.0.0",
-    "npm": "^6.10.2",
-    "soap": "^0.29.0"
+    "dotenv": "^8.2.0",
+    "npm": "^6.13.7",
+    "soap": "^0.30.0"
   }
 }
